@@ -117,7 +117,13 @@ blockquote {
 .home__article-tail {
   font-size: 12px;
   font-weight: bold;
-  margin: 24px auto;
+  margin: 24px auto 12px;
+}
+
+.ICP {
+  font-size: 12px;
+  color: #999;
+  margin: 0 auto 4px;
 }
 
 .article {
