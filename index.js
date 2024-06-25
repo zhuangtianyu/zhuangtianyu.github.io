@@ -118,6 +118,13 @@ switch (pageInfo.name) {
           <div class="home__article-tail">
             No more
           </div>
+          <a
+            class="ICP"
+            target="_blank"
+            href="https://beian.miit.gov.cn/"
+          >
+            京ICP备18002046号-1
+          </a>
         </div>
       </div>
     `;
