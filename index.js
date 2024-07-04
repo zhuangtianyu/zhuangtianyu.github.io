@@ -1,4 +1,4 @@
-import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+import { marked } from '/marked.esm.js';
 import { contents } from '/articles/contents.js';
 
 const getPageInfo = () => {
