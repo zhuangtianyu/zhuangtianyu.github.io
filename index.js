@@ -1,6 +1,12 @@
 import { marked } from '/marked.esm.js';
 import { contents } from '/articles/contents.js';
 
+const setLoading = state => {
+  const loading = document.querySelector('.loading');
+  if (!loading) return;
+  loading.style.display = state ? 'block' : 'none';
+};
+
 const getPageInfo = () => {
   let name = 'home';
   let params = {};
@@ -130,3 +136,5 @@ switch (pageInfo.name) {
     `;
   }
 }
+
+setLoading(false);
