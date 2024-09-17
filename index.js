@@ -4,7 +4,7 @@ import { contents } from '/articles/contents.js';
 const setLoading = state => {
   const loading = document.querySelector('.loading');
   if (!loading) return;
-  loading.style.display = state ? 'block' : 'none';
+  loading.style.display = state ? 'flex' : 'none';
 };
 
 const getPageInfo = () => {
